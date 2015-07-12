@@ -1,0 +1,6 @@
+Fizz:
+  foo: bar
+  baz:
+    - fizzle: eep
+    - cake: nope
+  cat: fish
