@@ -7,7 +7,7 @@ import (
 
 func init() {
 	http.HandleFunc("/", root)
-	http.HandleFunc("/test", root)
+	http.HandleFunc("/test", test)
 }
 
 func root(w http.ResponseWriter, r *http.Request) {
